@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Type Demo</title>
+</head>
+
+<body>
+    <!-- Form đăng ký của sinh viên -->
+    <form action="">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="fullName">Fullname</label>
+            <input type="text" id="fullName" name="fullName" /><br>
+            <label for="userName">Username</label>
+            <input type="text" id="userName" name="userName" /><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+        </fieldset>
+        <input type="hidden" name="" id=""><br>
+        <label for="favSport">Sport</label>
+        <input type="checkbox" name="sport" id="football" /><label for="football">Football</label>
+        <input type="checkbox" name="sport" id="basketball" /><label for="basketball">Basketball</label>
+        <input type="checkbox" name="sport" id="tennis" /><label for="tennis">Tennis</label><br>
+        <label for="sex">Sex</label>
+        <input type="radio" name="sex" id="male" /><label for="male">Male</label>
+        <input type="radio" name="sex" id="female" /><label for="female">Female</label><br>
+        <label for="avatar">Avatar</label>
+        <input type="file" name="avatar" id="avatar" /><br>
+        <label for="color">Choose Color</label>
+        <input type="color" name="color" id="color" /><br>
+        dd/mm/yyyy: <input type="date" name="date1" id="date1" /><br>
+        dd/mm/yyyy hh/mm/ss: <input type="datetime-local" name="date2" id="date2" /><br>
+        mm/yyyy: <input type="month" name="date3" id="date3" /><br>
+        hh/mm/ss: <input type="time" name="date4" id="date4" /><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" /><br>
+        <label for="star">Star</label>
+        <input type="range" name="star" id="stat" min="1" max="5" step="2" /><br>
+        <label for="subject">Subject</label>
+        <select name="subject" id="subject">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">Javascript</option>
+        </select><br>
+        <label for="description">Description</label>
+        <textarea name="description" id="description" cols="20" rows="3"></textarea>
+
+        <input type="button" value="Hello" onclick="alert('Xin chao')" />
+        <input type="submit" value="Register" />
+        <input type="reset" value="Reset" />
+
+    </form>
+</body>
+
+</html>
